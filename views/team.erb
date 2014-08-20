@@ -1,0 +1,16 @@
+<header>
+<h1><%= @team %></h1>
+</header>
+<section>
+<ul class="team">
+  <% @players.each do |player| %>
+    <li>
+      <%= player["first_name"] %>
+      <%= player["last_name"] %>
+      <div class="position">
+        <%= player["position"] %>
+      </div>
+    </li>
+  <% end %>
+</ul>
+</section>

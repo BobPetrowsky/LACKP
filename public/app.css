@@ -1,0 +1,134 @@
+body {
+  width: 100%;
+  margin: 0 auto;
+  color: #ecf0f1;
+  background-color: #ecf0f1;
+}
+
+nav {
+  width: 100%;
+  margin: 20px 0;
+}
+
+nav ul {
+  width: 100%
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  width: 25%;
+  float: left;
+}
+
+nav ul li a {
+  font-family: "Lobster";
+  color: #ecf0f1;
+  font-size: 30px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  background-color: #e74c3c;
+  padding-top: 25px;
+  height: 50px;
+}
+
+.brand {
+  font-size: 40px;
+  padding-bottom: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #c0392b;
+
+}
+nav ul li a:active {
+  color: #bdc3c7;
+  text-decoration: none;
+}
+.ball {
+  float: left;
+  width: 40%;
+  height: 0;
+  padding-bottom: 40%;
+  background-color: #e74c3c;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  border-color: #e74c3c;
+  margin-left: 28%;
+  margin-top: 2%;
+}
+
+.ball h1 {
+  text-decoration: underline;
+  font-family: "Lobster";
+  font-size: 4vmax;
+  float:left;
+  width:100%;
+  padding-top:45%;
+  line-height:1em;
+  margin-top:-0.5em;
+  text-align:center;
+}
+
+.teams {
+  text-align: center;
+  font-size: 4vmax;
+  padding-top: 2.5%;
+  background-color: #e74c3c;
+  width: 40%;
+  margin-left: 28%;
+  border-radius: 5%;
+}
+
+.teams li {
+  padding: 5%;
+}
+
+.teams li a {
+  font-family: "Lobster";
+  text-decoration: none;
+  color: #ecf0f1;
+}
+
+.teams li a:hover {
+  background-color: #c0392b;
+}
+
+header {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-family: "Lobster";
+  text-align: center;
+  color: #e74c3c;
+  width: 40%;
+  margin-left: 28%;
+  border-radius: 5%;
+}
+header h1 {
+  font-size: 5vmax;
+}
+
+.team {
+  text-align: center;
+  font-size: 4vmax;
+  padding-top: 2.5%;
+  background-color: #e74c3c;
+  width: 40%;
+  margin-left: 28%;
+  border-radius: 5%;
+}
+
+.team li {
+  padding: 5%;
+  font-family: "Lobster";
+  color: #ecf0f1;
+}
+
+.position {
+  font-size: 3vmax;
+  color: #bdc3c7;
+}

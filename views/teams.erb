@@ -1,0 +1,10 @@
+<header>
+  <h1>Teams</h1>
+</header>
+<ul class="teams">
+  <% @teams.each do |team| %>
+    <li>
+      <a href="<%= "/teams/#{team}" %> "><%= team %></a>
+    </li>
+  <% end %>
+</ul>
